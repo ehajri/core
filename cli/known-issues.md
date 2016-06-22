@@ -50,7 +50,7 @@ There is an [outstanding PR](https://github.com/robbyrussell/oh-my-zsh/pull/4925
 The command you can use is:
 
 ```console
-ln -s /usr/local/share/dotnet/dotnet /usr/local/bin
+ln -s /usr/local/share/dotnet/bin/dotnet /usr/local/bin
 ```
 
 **Workaround 2:** edit your `.zshrc` and/or `.zshprofile` files to add the `/usr/local/share/dotnet` to the $PATH. 
